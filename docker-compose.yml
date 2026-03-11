@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: test_v2_app
+    # Since this is a simple console app that prints to stdout and exits, 
+    # we can run it and see the output using docker-compose up
